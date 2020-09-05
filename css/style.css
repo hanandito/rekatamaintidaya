@@ -1,0 +1,16 @@
+*{
+    transition: all .3s;
+    font-family: 'Sarabun', sans-serif;
+}
+.nav-rekatama{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    padding: 10px 0;
+}
+.nav-rekatama ul li{
+    margin: 0 15px;
+}
+.nav-rekatama ul li a{
+    color: #fff;
+}
