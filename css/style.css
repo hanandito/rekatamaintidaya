@@ -1,7 +1,32 @@
 *{
     transition: all .3s;
-    font-family: 'Sarabun', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
 }
+p, a, label, th, td, li, input {
+    color: #484848;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #484848;
+}
+/* Buttons */
+a:hover{
+    text-decoration: none;
+}
+.button-green{
+    background-color: #10941e;
+    padding: 15px 30px;
+    color: #fff;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,69,7,0.19);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,69,7,0.19);
+    box-shadow: 5px 5px 5px 0px rgba(0,69,7,0.19);
+    transition: all .3s;
+}
+.button-green:hover{
+    background-color: #fff;
+    color: #10941e;
+}
+
+/* Navigation */
 .nav-rekatama{
     position: absolute;
     z-index: 3;
@@ -12,5 +37,23 @@
     margin: 0 15px;
 }
 .nav-rekatama ul li a{
-    color: #fff;
+}
+.banner-top .content-title{
+    position: absolute;
+    top: 49%;
+    right: -10%;
+    width: 42%;
+    transform: translate(-50%, -50%);
+}
+.home.banner-top .content-title h1{
+    font-size: 60px;
+}
+/* Ornaments */
+.line-before-green::before{
+    background-color: #10941e;
+    content: '';
+    width: 50px;
+    display: block;
+    height: 3px;
+    margin-bottom: 17px;
 }
