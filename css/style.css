@@ -8,12 +8,15 @@ p, a, label, th, td, li, input {
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     color: #484848;
 }
+.text-green{
+    color: #46c854;
+}
 /* Buttons */
 a:hover{
     text-decoration: none;
 }
 .button-green{
-    background-color: #10941e;
+    background-color: #46c854;
     padding: 15px 30px;
     color: #fff;
     -webkit-box-shadow: 5px 5px 5px 0px rgba(0,69,7,0.19);
@@ -23,9 +26,31 @@ a:hover{
 }
 .button-green:hover{
     background-color: #fff;
-    color: #10941e;
+    color: #46c854;
 }
-
+.button-white{
+    background-color: #fff;
+    padding: 15px 30px;
+    color: #46c854;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,69,7,0.19);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,69,7,0.19);
+    box-shadow: 5px 5px 5px 0px rgba(0,69,7,0.19);
+    transition: all .3s;
+}
+.button-white:hover{
+    background-color: #46c854;
+    color: #fff;
+}
+/* Background */
+.bg-light-green{
+    background-color: #84f790;
+}
+.bg-gray{
+    background-color: #7b7b7b;
+}
+.bg-green{
+    background-color: #46c854;
+}
 /* Navigation */
 .nav-rekatama{
     position: absolute;
@@ -41,7 +66,7 @@ a:hover{
 .banner-top .content-title{
     position: absolute;
     top: 49%;
-    right: -10%;
+    right: -19%;
     width: 42%;
     transform: translate(-50%, -50%);
 }
@@ -50,10 +75,14 @@ a:hover{
 }
 /* Ornaments */
 .line-before-green::before{
-    background-color: #10941e;
+    background-color: #46c854;
     content: '';
     width: 50px;
     display: block;
     height: 3px;
     margin-bottom: 17px;
+}
+/* Column Count */
+.column-count-2{
+    column-count: 2;
 }
