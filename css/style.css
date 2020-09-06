@@ -63,16 +63,6 @@ a:hover{
 }
 .nav-rekatama ul li a{
 }
-.banner-top .content-title{
-    position: absolute;
-    top: 49%;
-    right: -19%;
-    width: 42%;
-    transform: translate(-50%, -50%);
-}
-.home.banner-top .content-title h1{
-    font-size: 60px;
-}
 /* Ornaments */
 .line-before-green::before{
     background-color: #46c854;
@@ -85,4 +75,27 @@ a:hover{
 /* Column Count */
 .column-count-2{
     column-count: 2;
+}
+/* Pages */
+.banner-top .content-title{
+    position: absolute;
+    top: 49%;
+    right: -19%;
+    width: 42%;
+    transform: translate(-50%, -50%);
+}
+.home.banner-top .content-title h1{
+    font-size: 60px;
+}
+.guaranteed{
+    background-image: url(../images/bg-green-lock.jpg);
+    background-size: cover;
+    background-position: bottom right;
+}
+.high-security ul li::marker{
+    color: #84f790;
+}
+/* Footer */
+.footer{
+    border-top: 2px solid #46c854;
 }

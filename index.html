@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -97,12 +99,17 @@
                 <h5 class="line-before-green">
                     Our Services
                 </h5>
+                <h2 class="mt-lg-4">
+                    Segment we serve
+                </h2>
             </div>
         </div>
         <div class="row py-4">
             <div class="col-lg-3 px-lg-4">
                 <div class="wrap">
-                    <img class="w-100 img-fluid" src="images/shutterstock_130099715.jpg" alt="Card image cap">
+                    <h2 class="text-green text-center">
+                        <i class="fas fa-lock-open"></i>
+                    </h2>
                     <div class="card-body">
                       <h5 class="card-title">Product title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -116,7 +123,9 @@
             </div>
             <div class="col-lg-3 px-lg-4">
                 <div class="wrap">
-                    <img class="w-100 img-fluid" src="images/shutterstock_154298831.jpg" alt="Card image cap">
+                    <h2 class="text-green text-center">
+                        <i class="fas fa-fingerprint"></i>
+                    </h2>
                     <div class="card-body">
                       <h5 class="card-title">Product title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -130,7 +139,9 @@
             </div>
             <div class="col-lg-3 px-lg-4">
                 <div class="wrap">
-                    <img class="w-100 img-fluid" src="images/shutterstock_608938430.jpg" alt="Card image cap">
+                    <h2 class="text-green text-center">
+                        <i class="fas fa-user-shield"></i>
+                    </h2>
                     <div class="card-body">
                       <h5 class="card-title">Product title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -144,7 +155,9 @@
             </div>
             <div class="col-lg-3 px-lg-4">
                 <div class="wrap">
-                    <img class="w-100 img-fluid" src="images/shutterstock_1082068391.jpg" alt="Card image cap">
+                    <h2 class="text-green text-center">
+                        <i class="fas fa-eye-slash"></i>
+                    </h2>
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -160,7 +173,7 @@
     </div>
     <div class="container-fluid">
         <div class="row mt-5">
-            <div class="col-lg-6 py-5 pl-lg-5 bg-gray">
+            <div class="col-lg-6 py-5 pl-lg-5 bg-gray  high-security">
                 <h3 class="text-center text-white my-lg-4">
                     High Security Services
                 </h3>
@@ -185,7 +198,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-6 py-5 pl-lg-5 bg-light-green">                
+            <div class="col-lg-6 py-5 pl-lg-5 guaranteed">                
                 <h2 class="my-5 ml-lg-5">
                     Fast Response Time<br>
                     Guaranteed
@@ -217,63 +230,103 @@
                 <h6 class="line-before-green">
                     Our Highlights
                 </h6>
-                <h2>
+                <h2 class="mt-lg-4">
                     Latest news
                 </h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 px-5 py-2">
-                <div class="card">
-                    <img class="card-img" src="images/news-content-image.jpg" alt="Card image">
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">News title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text">Last updated 3 mins ago</p>
+            <div class="col-lg-6 py-4">
+                <div class="media">
+                    <img class="w-50 mr-3" src="images/shutterstock_130099715.jpg" alt="Generic placeholder image">
+                    <div class="media-body">
+                      <a href=""><h5 class="mt-0">Media heading</h5></a>
+                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</p> 
+                        <div class="wrap-button py-4 text-right">
+                            <a href="#" class="button-green">
+                                more
+                            </a>
+                        </div>
                     </div>
                   </div>
             </div>
-            <div class="col-lg-6 px-5 py-2">
-                <div class="card">
-                    <img class="card-img" src="images/news-content-image-2nd.jpg" alt="Card image">
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">News title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text">Last updated 3 mins ago</p>
+            <div class="col-lg-6 py-4">
+                <div class="media">
+                    <img class="w-50 mr-3" src="images/shutterstock_1082068391.jpg" alt="Generic placeholder image">
+                    <div class="media-body">
+                      <a href=""><h5 class="mt-0">Media heading</h5></a>
+                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</p> 
+                        <div class="wrap-button py-4 text-right">
+                            <a href="#" class="button-green">
+                                more
+                            </a>
+                        </div>
                     </div>
                   </div>
             </div>
-            <div class="col-lg-6 px-5 py-2">
-                <div class="card">
-                    <img class="card-img" src="images/news-content-image-2nd.jpg" alt="Card image">
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">News title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text">Last updated 3 mins ago</p>
+            <div class="col-lg-6 py-4">
+                <div class="media">
+                    <img class="w-50 mr-3" src="images/shutterstock_264466133.jpg" alt="Generic placeholder image">
+                    <div class="media-body">
+                      <a href=""><h5 class="mt-0">Media heading</h5></a>
+                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</p> 
+                        <div class="wrap-button py-4 text-right">
+                            <a href="#" class="button-green">
+                                more
+                            </a>
+                        </div>
                     </div>
                   </div>
             </div>
-            <div class="col-lg-6 px-5 py-2">
-                <div class="card">
-                    <img class="card-img" src="images/news-content-image.jpg" alt="Card image">
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">News title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text">Last updated 3 mins ago</p>
+            <div class="col-lg-6 py-4">
+                <div class="media">
+                    <img class="w-50 mr-3" src="images/shutterstock_130099715.jpg" alt="Generic placeholder image">
+                    <div class="media-body">
+                      <a href=""><h5 class="mt-0">Media heading</h5></a>
+                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</p> 
+                        <div class="wrap-button py-4 text-right">
+                            <a href="#" class="button-green">
+                                more
+                            </a>
+                        </div>
                     </div>
                   </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-green">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-3">
-                <img src="images/" alt="">
+            <div class="col-lg-12">
+                <div class="carousel-testimonials owl-theme">
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <img class="img-fluid" src="images/news-content-image.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <img class="img-fluid" src="images/news-content-image.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <div class="container-fluid footer">
+        <div class="row px-5">
+            <div class="col-lg-4">
+                <img class="w-50" src="images/logo-full.png" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
