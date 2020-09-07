@@ -1,7 +1,4 @@
 $(document).ready(function() {
-    AOS.init({
-         duration: 1200
-        });
      $('.nav-birthday-2 .fa-bars').click(function() {
       $(".side-nav").addClass("active");
     })
@@ -13,8 +10,7 @@ $(document).ready(function() {
       responsiveClass: true,
       responsive:{
         0: {
-          margin: 40,
-          items: 2,
+          items: 1,
           dots: true,
           nav: false
         },
@@ -24,8 +20,7 @@ $(document).ready(function() {
           nav: false
         },
         1000: {
-          margin: 70,
-          items: 1,
+          items: 3,
           dots: false,
           nav: true
         }

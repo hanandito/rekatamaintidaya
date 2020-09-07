@@ -11,6 +11,9 @@ p, a, label, th, td, li, input {
 .text-green{
     color: #46c854;
 }
+.font-40px{
+    font-size: 40px;
+}
 /* Buttons */
 a:hover{
     text-decoration: none;
@@ -53,10 +56,17 @@ a:hover{
 }
 /* Navigation */
 .nav-rekatama{
-    position: absolute;
+    position: fixed;
     z-index: 3;
     width: 100%;
     padding: 10px 0;
+    background: rgba(255,255,255,0.9);
+}
+.nav-rekatama img{
+    width: 50px;
+}
+.nav-rekatama ul{
+    margin-bottom: 0;;
 }
 .nav-rekatama ul li{
     margin: 0 15px;
@@ -77,7 +87,7 @@ a:hover{
     column-count: 2;
 }
 /* Pages */
-.banner-top .content-title{
+.home.banner-top .content-title{
     position: absolute;
     top: 49%;
     right: -19%;
@@ -95,7 +105,21 @@ a:hover{
 .high-security ul li::marker{
     color: #84f790;
 }
+.general.banner-top .content-title{
+    position: absolute;
+    top: 60%;
+    left: 16%;
+    transform: translate(-50%, -50%)
+}
 /* Footer */
 .footer{
-    border-top: 2px solid #46c854;
+    border-top: 3px solid #46c854;
+}
+.footer ul li{
+    margin: 12px 0;
+}
+/* Paddings */
+.py-10{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
