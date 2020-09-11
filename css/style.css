@@ -71,8 +71,6 @@ a:hover{
 .nav-rekatama ul li{
     margin: 0 15px;
 }
-.nav-rekatama ul li a{
-}
 /* Ornaments */
 .line-before-green::before{
     background-color: #46c854;
