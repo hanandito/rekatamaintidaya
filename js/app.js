@@ -25,8 +25,32 @@ $(document).ready(function() {
           nav: false
         }
       }
-    })
-  })
+    });
+    $('.carousel-clients').addClass('owl-carousel owl-theme').owlCarousel({
+      loop: true,
+      responsiveClass: true,
+      autoplay:true,
+      autoplayTimeout:1000,
+      autoplayHoverPause:true,
+      responsive:{
+        0: {
+          items: 1,
+          dots: true,
+          nav: false
+        },
+        600: {
+          items: 1,
+          dots: true,
+          nav: false
+        },
+        1000: {
+          items: 6,
+          dots: false,
+          nav: false
+        }
+      }
+    });
+  });
   $(document).ready(function(){
     // Add smooth scrolling to all links
     $(".nav-birthday-2 a").on('click', function(event) {

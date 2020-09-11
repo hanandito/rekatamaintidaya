@@ -97,6 +97,11 @@ a:hover{
 .home.banner-top .content-title h1{
     font-size: 60px;
 }
+.bg-home-brief-mid{
+    background-image: url(../images/bg-home-brief-mid.jpg);
+    background-position: right bottom;
+    background-size: cover;
+}
 .guaranteed{
     background-image: url(../images/bg-green-lock.jpg);
     background-size: cover;
@@ -111,9 +116,45 @@ a:hover{
     left: 16%;
     transform: translate(-50%, -50%)
 }
+.nav-tabs {
+    border-bottom: 1px solid #46c854;
+}
+.nav-tabs .nav-link{
+    border-radius: 0;
+    font-size: 20px;
+    padding: 1rem 2rem;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: #fff;
+    background: #46c854;
+    border-color: #46c854 #46c854 #fff;
+}
+.about.history-section .tab-content ul li::marker, .custom-marker li::marker{
+        font-family: "Font Awesome 5 Free";
+        content: '\f058 \00a0 \00a0';
+        margin-right: 5em;
+        color: #46c854;
+}
+.about.bottom-bg-services{
+    background-image: url(../images/shutterstock_123163654_content.jpg);
+    background-size: cover;
+    background-position: right;
+}
+.about.client-logo{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.bg-services{
+    background-image: url(../images/bg-services.jpg);
+    background-size: cover;
+    background-position: right;
+}
 /* Footer */
 .footer{
     border-top: 3px solid #46c854;
+    background-image: url(../images/bg-footer.jpg);
+    background-size: cover;
+    background-position: right;
 }
 .footer ul li{
     margin: 12px 0;
