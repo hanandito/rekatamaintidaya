@@ -147,6 +147,9 @@ a:hover{
     background-size: cover;
     background-position: right;
 }
+.mb-m-5px{
+    margin-bottom: -5px;
+}
 /* Footer */
 .footer{
     border-top: 3px solid #46c854;
@@ -159,6 +162,11 @@ a:hover{
 }
 .footer .copyright{
     font-size: 12px;
+}
+.bg-contact{
+    background-image: url(../images/bg-contact.jpg);
+    background-size: cover;
+    background-position: right;
 }
 /* Paddings */
 .py-10{
