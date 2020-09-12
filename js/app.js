@@ -34,8 +34,8 @@ $(document).ready(function() {
       autoplayHoverPause:true,
       responsive:{
         0: {
-          items: 1,
-          dots: true,
+          items: 4,
+          dots: false,
           nav: false
         },
         600: {
