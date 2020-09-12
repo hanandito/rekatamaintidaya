@@ -30,7 +30,7 @@ $(document).ready(function() {
       loop: true,
       responsiveClass: true,
       autoplay:true,
-      autoplayTimeout:1000,
+      autoplayTimeout:2000,
       autoplayHoverPause:true,
       responsive:{
         0: {
