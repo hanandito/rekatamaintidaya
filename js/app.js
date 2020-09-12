@@ -1,8 +1,8 @@
 $(document).ready(function() {
-     $('.nav-birthday-2 .fa-bars').click(function() {
+     $('.button-menu').click(function() {
       $(".side-nav").addClass("active");
     })
-    $('.close-div .fa-times, .side-nav li').click(function() {
+    $('.button-close, .side-nav li').click(function() {
       $(".side-nav").removeClass("active");
     })
   $('.carousel-testimonials').addClass('owl-carousel owl-theme').owlCarousel({
@@ -75,3 +75,13 @@ $(document).ready(function() {
       } // End if
     });
   });
+  var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("nav_rekatama").style.top = "0";
+  } else {
+    document.getElementById("nav_rekatama").style.top = "-75px";
+  }
+  prevScrollpos = currentScrollPos;
+}
