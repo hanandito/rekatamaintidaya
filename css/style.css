@@ -150,6 +150,10 @@ a:hover{
 .mb-m-5px{
     margin-bottom: -5px;
 }
+.item-contact.middle{
+    border-left: 2px solid #46c854;
+    border-right: 2px solid #46c854;
+}
 /* Footer */
 .footer{
     border-top: 3px solid #46c854;
@@ -263,5 +267,8 @@ a:hover{
     }
     .bg-services{
         background-image: url(../images/bg-services-mobile.jpg);
+    }
+    .item-contact.middle{
+        border: none;
     }
 }
