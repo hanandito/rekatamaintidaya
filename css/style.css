@@ -64,6 +64,7 @@ a:hover{
     width: 100%;
     padding: 10px 0;
     background: rgba(255,255,255,0.9);
+    border-bottom: 2px solid #46c854;
 }
 .nav-rekatama img{
     width: 50px;
