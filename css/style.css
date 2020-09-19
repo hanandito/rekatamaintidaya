@@ -157,6 +157,9 @@ a:hover{
     border-left: 2px solid #46c854;
     border-right: 2px solid #46c854;
 }
+.home-mid-bottom{
+    background-image: url(../images/bg-home-mid-bottom-content.jpg);
+}
 /* Footer */
 .footer{
     border-top: 3px solid #46c854;
